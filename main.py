@@ -1,0 +1,2 @@
+def greeting():
+    return "Hello, welcome to the course on using tools with Claude! In this course, you'll learn how to create and use tools to enhance your interactions with Claude. Let's get started!"

@@ -1,17 +1,49 @@
 [
   {
-    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
-    "format": "regex",
-    "solution_criteria": "Regex pattern should correctly capture timestamp (ISO 8601 format), log level (ERROR, WARN, INFO, DEBUG), and the message content from a CloudWatch log line"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "68 kg",
+      "goal": "marathon endurance training with carbohydrate loading",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day with appropriate timing for pre/during/post-training energy availability",
+      "Total daily calories and carbohydrate intake support high-endurance marathon training demands",
+      "Plan is compact and concise (brief descriptions, not elaborate recipes)"
+    ],
+    "task_description": "Write a compact, consise 1 day meal plan for a single Athelete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific timing for energy availability"
   },
   {
-    "task": "Write a Python function that takes an AWS S3 bucket name and returns True if the name follows AWS naming conventions (lowercase, 3-63 characters, no consecutive hyphens)",
-    "format": "python",
-    "solution_criteria": "Function should validate S3 bucket naming rules and return a boolean; must handle edge cases like hyphens at start/end and length constraints"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "muscle gain through strength training",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with all meals specified",
+      "Protein distributed across minimum 4 meals with pre/post-workout nutrition clearly identified",
+      "Caloric and macronutrient targets appropriate for 85kg strength athlete in muscle gain phase",
+      "Format is compact and concise (under 400 tokens)"
+    ],
+    "task_description": "Write a compact, consise 1 day meal plan for a single Athelete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution across meals and pre/post-workout nutrition with minimal cardio demands"
   },
   {
-    "task": "Create a JSON configuration object for an AWS Lambda function that specifies runtime, timeout, memory, environment variables, and VPC settings",
-    "format": "json",
-    "solution_criteria": "JSON should be valid, include required Lambda configuration fields (Runtime, Timeout, MemorySize, Environment, VpcConfig), and follow AWS CloudFormation or SAM format conventions"
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "72",
+      "goal": "muscle gain and endurance training",
+      "restrictions": "vegan"
+    },
+    "solution_criteria": [
+      "Meal plan contains 4-5 meals/snacks distributed throughout the day",
+      "All protein sources are plant-based (legumes, tofu, nuts, seeds, grains)",
+      "Caloric and macronutrient distribution supports muscle gain and endurance (approximately 2800-3000 calories with 1.6-2g protein per kg bodyweight)",
+      "Includes micronutrient-rich foods addressing vegan athlete needs (iron, B12, omega-3, calcium)"
+    ],
+    "task_description": "Write a compact, consise 1 day meal plan for a single Athelete",
+    "scenario": "Testing with an athlete with dietary restrictions (vegan/vegetarian) requiring plant-based protein sources and balanced micronutrient planning for recovery"
   }
 ]
